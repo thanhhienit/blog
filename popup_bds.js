@@ -115,7 +115,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://www.webtayninh.com/' target='_blank'><br /><img src='http://www.webtayninh.com/images/banner-quang-cao.png' width='500px'/>Bất Động Sản Giá Rẻ Nhất Tây Ninh</a>. LH: 0973498174 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://www.webtayninh.com/' target='_blank'><img src='http://www.webtayninh.com/images/banner-quang-cao.png' width='500px'/>Bất Động Sản Giá Rẻ Nhất Tây Ninh</a>. LH: 0973498174 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
